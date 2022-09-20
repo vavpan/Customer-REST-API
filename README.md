@@ -1,7 +1,7 @@
 # Customer-REST-API
 
 <b>About the API</b>
-<p> An API for customer management. It is built with Java,Spring Boot and Spring Framework. You can view,update,add and delete customers who are stored in a database.
+<p> An API for customer management. It is built with Java,Spring Boot and Spring Framework. You can view,update,add and delete customers who are stored in a database.</p>
 
 <b>Features</b>
 <ul>
@@ -27,6 +27,14 @@
 
 </ul>
 
+
 <b> Execution </b>
 
+<p> You need to have MySQL Workbench installed on your machine to save the customer database. After installed, you can find the SQL script in source code in folder "Database". Run the script in Workbench in order the database to be created.
 
+After creating the API database, you need to go to <u>persistence-mysql.properties</u> file on <u>src/main/resource</u>. The lines that must be modified are as follows:
+
+jdbc.user=
+jdbc.password=
+
+Thereafter, you have to install Tomcat 9.0 on your computer in order to run the application. Once it's done, you can run the Customer API. For a better experience you can use Postman(it is optional) in order to manage the customers.
