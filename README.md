@@ -34,7 +34,8 @@
 
 After creating the API database, you need to go to <u>persistence-mysql.properties</u> file on <u>src/main/resource</u>. The lines that must be modified are as follows:
 
-jdbc.user=
+jdbc.user= 
+<br>
 jdbc.password=
 
 Thereafter, you have to install Tomcat 9.0 on your computer in order to run the application. Once it's done, you can run the Customer API. For a better experience you can use Postman(it is optional) in order to manage the customers.
