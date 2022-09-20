@@ -30,7 +30,7 @@
 
 <b> Execution </b>
 
-<p> You need to have MySQL Workbench installed on your machine to save the customer database. After installed, you can find the SQL script in source code in folder "Database". Run the script in Workbench in order the database to be created.
+<p> You need to have MySQL Workbench installed on your machine to save the customer database. After installed, you can find the SQL script in source code in folder "sql-script". Run the script in Workbench in order the database to be created.
 
 After creating the API database, you need to go to <u>persistence-mysql.properties</u> file on <u>src/main/resource</u>. The lines that must be modified are as follows:
 
