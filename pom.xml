@@ -38,6 +38,8 @@
 			<version>${springframework.version}</version>
 		</dependency>
 
+
+
 		<!-- Add Jackson for JSON converters -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
